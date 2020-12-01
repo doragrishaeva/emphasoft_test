@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="scss/style.css">
+    <title>Webim</title>
+</head>
+<body>
+    <header class="header">
+        <img class="logo header__logo" src="assets/images/logo.svg" alt="logo"/>
+        <ul class="header__navigation">
+            <li class="header__navigation-item"><a href="#main" class="header__navigation-link">Main</a></li>
+            <li class="header__navigation-item"><a href="#features" class="header__navigation-link">Features</a></li>
+            <li class="header__navigation-item"><a href="#item" class="header__navigation-link">Item</a></li>
+            <li class="header__navigation-item"><a href="#partners" class="header__navigation-link">Partners</a></li>
+            <li class="header__navigation-item"><a href="#faq" class="header__navigation-link">F.A.Q.</a></li>
+        </ul>
+    </header>
+    <section class="main-screen" id="main">
+        <div class="main-screen__wrapper">
+            <div class="main-screen__content">
+                <h1 class="main-screen__title">Header</h1>
+                <p class="main-screen__text">Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea reprehenderit elit laboris do exercitation laborum sit elit incididunt aute fugiat consectetur.</p>
+                <a href="#" class="main-screen__link">Watch the video to find out more</a>
+            </div>
+            <div class="main-screen__image">
+                <img src="assets/images/main-screen-img.svg" alt="main-video"/>
+            </div>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <h2 class="features__title">Functionality and features</h2>
+        <div class="features__items">
+            <div class="features-item features__item">
+                <img class="features-item__img" src="assets/images/feature-1.svg" alt="feature"/>
+                <p class="features-item__text">Access data from<br> over 30,0000 global<br> stations</p>
+            </div>
+            <div class="features-item features__item">
+                <img class="features-item__img" src="assets/images/feature-2.svg" alt="feature"/>
+                <p class="features-item__text">Create your own library<br> of data</p>
+            </div>
+            <div class="features-item features__item">
+                <img class="features-item__img" src="assets/images/feature-3.svg" alt="feature"/>
+                <p class="features-item__text">Analyse your data</p>
+            </div>
+            <div class="features-item features__item">
+                <img class="features-item__img" src="assets/images/feature-4.svg" alt="feature"/>
+                <p class="features-item__text">Present your data</p>
+            </div>
+        </div>
+    </section>
+    <section class="survey" id="item">
+        <div class="survey__image">
+            <img src="assets/images/survey-img.svg" alt="survey"/>
+        </div>
+        <div class="survey__content">
+            <p class="survey__title">We want the best value for you:</p>
+            <div class="survey__questions">
+                <div class="survey__question">
+                    <p class="survey__question-text">1. Are you willing to spend money?</p>
+                    <div class="survey__question-answers">
+                        <button class="survey__question-answer">Yes</button>
+                        <button class="survey__question-answer">No</button>
+                    </div>
+                </div>
+                <div class="survey__question">
+                    <p class="survey__question-text">2. Who are you?</p>
+                    <div class="survey__question-answers">
+                        <button class="survey__question-answer">Individual</button>
+                        <button class="survey__question-answer">Student</button>
+                        <button class="survey__question-answer">Company user</button>
+                    </div>
+                </div>
+                <div class="survey__question">
+                    <p class="survey__question-text">3. What sort of data are you working with?</p>
+                    <div class="survey__question-answers">
+                        <button class="survey__question-answer">Meteorological</button>
+                        <button class="survey__question-answer">Other</button>
+                    </div>
+                </div>
+                <div class="survey__question">
+                    <p class="survey__question-text">4. Wind Speed Data:</p>
+                    <div class="survey__question-answers">
+                        <button class="survey__question-answer">I have my own</button>
+                        <button class="survey__question-answer">I want to find quality wind speed data</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners" id="partners">
+        <h2 class="partners__title">Our partners</h2>
+        <div id="slider" class="partners__slider">
+            <div class="partners__slider-container">
+                <img class="partners__img" src="assets/images/partner-1.svg" alt="partner" width="199px" height="199px"/>
+                <img class="partners__img" src="assets/images/partner-2.svg" alt="partner"/>
+                <img class="partners__img" src="assets/images/partner-3.svg" alt="partner"/>
+                <img class="partners__img partners__img_last" src="assets/images/partner-4.svg" alt="partner"/>
+                <img class="partners__img" src="assets/images/partner-1.svg" alt="partner" width="199px" height="199px"/>
+                <img class="partners__img" src="assets/images/partner-2.svg" alt="partner"/>
+                <img class="partners__img" src="assets/images/partner-3.svg" alt="partner"/>
+                <img class="partners__img partners__img_last" src="assets/images/partner-4.svg" alt="partner"/>
+            </div>
+          </div>
+        <!-- <div class="partners__img-block">
+            <img class="partners__img" src="assets/images/partner-1.svg" alt="partner" width="199px" height="199px"/>
+            <img class="partners__img" src="assets/images/partner-2.svg" alt="partner"/>
+            <img class="partners__img" src="assets/images/partner-3.svg" alt="partner"/>
+            <img class="partners__img partners__img_last" src="assets/images/partner-4.svg" alt="partner"/>
+        </div> -->
+    </section>
+    <section class="faqs" id="faq">
+        <p class="faqs__title">Our features</p>
+        <p class="faqs__text">Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea reprehenderit elit laboris do exercitation laborum sit elit incididunt aute fugiat consectetur.</p>
+        <div class="faqs__block">
+            <div class="faq faqs__item">
+                <div class="faq__content">
+                    <p class="faq__text">Lorem irure fugiat cupidatat duis mollit commodo?</p>
+                    <p class="faq__text_hidden">Some text here</p>
+                </div>
+                <svg class="faq__img" width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2L10 10L18 2" stroke="#22CBFF" stroke-width="3"/>
+                </svg>
+                
+            </div>
+            <div class="faq faqs__item">
+                <div class="faq__content">
+                    <p class="faq__text">Commodo nisi aliqua proident consequat consequat?</p>
+                    <p class="faq__text_hidden">Some text here</p>
+                </div>
+                <svg class="faq__img" width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2L10 10L18 2" stroke="#22CBFF" stroke-width="3"/>
+                </svg>
+            </div>
+            <div class="faq faqs__item">
+                <div class="faq__content">
+                    <p class="faq__text">Sunt veniam voluptate reprehenderit consectetur eiusmod quis?</p>
+                    <p class="faq__text_hidden">Some text here</p>
+                </div>
+                <svg class="faq__img" width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2L10 10L18 2" stroke="#22CBFF" stroke-width="3"/>
+                </svg>
+                
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <img class="footer__logo" src="assets/images/logo-gray.svg" alt="logo"/>
+        <div class="footer__social-links">
+            <svg class="footer__social-link" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 0.47998C5.63758 0.47998 0.47998 5.63758 0.47998 12C0.47998 18.3624 5.63758 23.52 12 23.52C18.3624 23.52 23.52 18.3624 23.52 12C23.52 5.63758 18.3624 0.47998 12 0.47998ZM14.7288 8.44078H12.9972C12.792 8.44078 12.564 8.71078 12.564 9.06958V10.32H14.73L14.4024 12.1032H12.564V17.4564H10.5204V12.1032H8.66638V10.32H10.5204V9.27118C10.5204 7.76638 11.5644 6.54358 12.9972 6.54358H14.7288V8.44078Z" fill="white"/>
+            </svg>
+            <svg class="footer__social-link" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.9236 11.7996L11.2284 10.542C10.9932 10.4328 10.8 10.5552 10.8 10.8156V13.1844C10.8 13.4448 10.9932 13.5672 11.2284 13.458L13.9224 12.2004C14.1588 12.09 14.1588 11.91 13.9236 11.7996ZM12 0.47998C5.63758 0.47998 0.47998 5.63758 0.47998 12C0.47998 18.3624 5.63758 23.52 12 23.52C18.3624 23.52 23.52 18.3624 23.52 12C23.52 5.63758 18.3624 0.47998 12 0.47998ZM12 16.68C6.10318 16.68 5.99998 16.1484 5.99998 12C5.99998 7.85158 6.10318 7.31998 12 7.31998C17.8968 7.31998 18 7.85158 18 12C18 16.1484 17.8968 16.68 12 16.68Z" fill="white"/>
+            </svg>
+            <svg class="footer__social-link" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.6 12C15.6 12.9548 15.2207 13.8704 14.5456 14.5456C13.8704 15.2207 12.9548 15.6 12 15.6C11.0452 15.6 10.1295 15.2207 9.4544 14.5456C8.77926 13.8704 8.39998 12.9548 8.39998 12C8.39998 11.7948 8.42158 11.5944 8.45878 11.4H7.19998V16.1964C7.19998 16.53 7.46998 16.8 7.80358 16.8H16.1976C16.3575 16.7997 16.5107 16.7359 16.6236 16.6228C16.7366 16.5096 16.8 16.3563 16.8 16.1964V11.4H15.5412C15.5784 11.5944 15.6 11.7948 15.6 12ZM12 14.4C12.3152 14.3999 12.6274 14.3377 12.9186 14.217C13.2098 14.0963 13.4744 13.9194 13.6973 13.6964C13.9201 13.4735 14.0969 13.2088 14.2175 12.9175C14.338 12.6262 14.4001 12.314 14.4 11.9988C14.3999 11.6835 14.3377 11.3714 14.217 11.0802C14.0963 10.7889 13.9194 10.5243 13.6964 10.3015C13.4735 10.0786 13.2088 9.90185 12.9175 9.78129C12.6262 9.66072 12.314 9.5987 11.9988 9.59878C11.3621 9.59894 10.7516 9.85201 10.3015 10.3023C9.85139 10.7526 9.59862 11.3633 9.59878 12C9.59894 12.6367 9.85201 13.2472 10.3023 13.6973C10.7526 14.1474 11.3633 14.4001 12 14.4ZM14.88 9.47998H16.3188C16.4144 9.47998 16.5061 9.44209 16.5738 9.37461C16.6415 9.30713 16.6797 9.21557 16.68 9.11998V7.68118C16.68 7.58538 16.6419 7.49351 16.5742 7.42577C16.5064 7.35804 16.4146 7.31998 16.3188 7.31998H14.88C14.7842 7.31998 14.6923 7.35804 14.6246 7.42577C14.5568 7.49351 14.5188 7.58538 14.5188 7.68118V9.11998C14.52 9.31798 14.682 9.47998 14.88 9.47998ZM12 0.47998C8.94469 0.47998 6.01453 1.69369 3.85411 3.85411C1.69369 6.01453 0.47998 8.94469 0.47998 12C0.47998 15.0553 1.69369 17.9854 3.85411 20.1458C6.01453 22.3063 8.94469 23.52 12 23.52C13.5128 23.52 15.0108 23.222 16.4085 22.6431C17.8062 22.0641 19.0761 21.2156 20.1458 20.1458C21.2156 19.0761 22.0641 17.8062 22.6431 16.4085C23.222 15.0108 23.52 13.5128 23.52 12C23.52 10.4872 23.222 8.98914 22.6431 7.59147C22.0641 6.1938 21.2156 4.92384 20.1458 3.85411C19.0761 2.78438 17.8062 1.93582 16.4085 1.35689C15.0108 0.777954 13.5128 0.47998 12 0.47998ZM18 16.6668C18 17.4 17.4 18 16.6668 18H7.33318C6.59998 18 5.99998 17.4 5.99998 16.6668V7.33318C5.99998 6.59998 6.59998 5.99998 7.33318 5.99998H16.6668C17.4 5.99998 18 6.59998 18 7.33318V16.6668Z" fill="white"/>
+            </svg>
+        </div>
+    </footer>
+    <!-- Import JQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!--Import PageScroll2id to scroll on a page-->
+    <script src="assets/PageScroll2id.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>

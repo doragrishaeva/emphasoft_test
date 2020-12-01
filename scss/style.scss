@@ -1,0 +1,19 @@
+// Abstracts
+@import "abstracts/variables";
+
+// Base
+@import "base/base";
+@import "base/normalize";
+
+// Layouts
+@import "layouts/header";
+@import "layouts/main_screen";
+@import "layouts/features";
+@import "layouts/survey";
+@import "layouts/partners";
+@import "layouts/faqs";
+@import "layouts/footer";
+
+// Components
+@import "components/navigation";
+@import "components/logo";

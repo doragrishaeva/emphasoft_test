@@ -1,0 +1,127 @@
+.faqs {
+    width: 63.5%;
+    padding: 65px calc((100% - 63.5%)/2) 100px;
+    background-color: $background-color;
+}
+
+.faqs__title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.5rem;
+    color: $font-color-dark;
+    text-align: center;
+    margin-bottom: 25px !important;
+}
+
+.faqs__text {
+    text-align: center;
+    font-family: $add-font;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: $main-spacing;
+    color: $font-color-bright;
+    width: 75%;
+    margin: 0 auto !important;
+    margin-bottom: 68px !important;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid $border-color;
+    cursor: pointer;
+    transition: $main-transition;
+}
+
+.faq:hover {
+    opacity: $main-opacity;
+    transition: $main-transition;
+}
+
+.faq__text, .faq__text_hidden {
+    font-family: $add-font;
+    font-size: 2rem;
+    line-height: 3.8rem;
+    font-weight: 400;
+    letter-spacing: $main-spacing;
+    color: $font-color-dark;
+}
+
+.faq__text_hidden {
+    display: none;
+    padding-top: 10px !important;
+}
+
+.faq__img {
+    transition: $main-transition;
+}
+
+.faq__img_active {
+    transform: rotate(180deg);
+    transition: $main-transition;
+}
+
+@media only screen and (max-width: 1300px) {
+    .faqs__title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .faqs__text {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .faq__text, .faq__text_hidden {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .faq__img {
+        width: 15px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .faqs {
+        width: 69.5%;
+        padding: 65px calc((100% - 69.5%)/2) 100px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .faqs {
+        width: 80%;
+        padding: 65px calc((100% - 80%)/2) 100px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .faqs {
+        width: 90%;
+        padding: 65px calc((100% - 90%)/2) 80px;
+    }
+    .faqs__title {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+    .faqs__text {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-bottom: 30px !important;
+    }
+    .faq__text, .faq__text_hidden {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .faq__img {
+        width: 13px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .faq__text, .faq__text_hidden {
+        padding-right: 30px !important;
+    }
+}

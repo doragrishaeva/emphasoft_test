@@ -1,0 +1,36 @@
+.header__logo, .footer__logo {
+    cursor: pointer;
+    transition: $main-transition;
+}
+
+.header__logo:hover, .footer__logo:hover {
+    opacity: $main-opacity;
+    transition: $main-transition;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header__logo {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .header__logo {
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .header__logo {
+        width: 110px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header__logo {
+        width: 190px;
+    }
+    .footer__logo {
+        width: 30%;
+    }
+}
